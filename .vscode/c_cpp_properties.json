@@ -69,7 +69,8 @@
                 "${IDF_PATH}/components/bt/host/nimble/port/include",
                 "${IDF_PATH}/components/bt/host/nimble/nimble/nimble/host/services/gap/include",
                 "${IDF_PATH}/components/bt/host/nimble/nimble/nimble/host/services/gatt/include",
-                "${IDF_TOOLS}/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include"
+                "${IDF_TOOLS}/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include",
+                "${IDF_PATH}/components/esp_ringbuf/include"
             ],
             "defines": [],
             "cStandard": "c11",
